@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-languagelearningapp-staging-13115-authRole",
+      "UnauthRoleArn": "arn:aws:iam::880220446724:role/amplify-languagelearningapp-staging-13115-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::880220446724:role/amplify-languagelearningapp-staging-13115-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-languagelearningapp-staging-13115-deployment",
+      "UnauthRoleName": "amplify-languagelearningapp-staging-13115-unauthRole",
+      "StackName": "amplify-languagelearningapp-staging-13115",
+      "StackId": "arn:aws:cloudformation:us-east-2:880220446724:stack/amplify-languagelearningapp-staging-13115/3ca92e60-c851-11ed-8c2c-0a2f39f1f93c",
+      "AmplifyAppId": "dai387e5olzte"
+    },
+    "categories": {
+      "function": {
+        "TranslateText": {
+          "deploymentBucketName": "amplify-languagelearningapp-staging-13115-deployment",
+          "s3Key": "amplify-builds/TranslateText-5a392f644771714a326c-build.zip"
+        }
+      }
+    }
+  }
+}

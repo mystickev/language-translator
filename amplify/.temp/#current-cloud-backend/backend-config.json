@@ -1,0 +1,33 @@
+{
+  "function": {
+    "TranslateText": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_TranslateText_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TranslateText"
+        }
+      ]
+    },
+    "AMPLIFY_function_TranslateText_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "TranslateText"
+        }
+      ]
+    }
+  }
+}
